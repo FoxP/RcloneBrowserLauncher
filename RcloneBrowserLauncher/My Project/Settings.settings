@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="sRcloneBrowserPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Program Files\rclone-browser\RcloneBrowser.exe</Value>
+      <Value Profile="(Default)">C:\Program Files\Rclone Browser\RcloneBrowser.exe</Value>
     </Setting>
     <Setting Name="sRclonePwd" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

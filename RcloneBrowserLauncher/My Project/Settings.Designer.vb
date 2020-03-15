@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("C:\Program Files\rclone-browser\RcloneBrowser.exe")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("C:\Program Files\Rclone Browser\RcloneBrowser.exe")>  _
         Public Property sRcloneBrowserPath() As String
             Get
                 Return CType(Me("sRcloneBrowserPath"),String)
