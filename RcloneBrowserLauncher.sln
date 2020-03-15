@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RcloneBrowserLauncher", "RcloneBrowserLauncher\RcloneBrowserLauncher.vbproj", "{6CFC5013-BB93-4B32-B58E-371DB9C0759B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RcloneBrowserLauncher_Setup", "RcloneBrowserLauncher_Setup\RcloneBrowserLauncher_Setup.vdproj", "{0EA08C56-42F0-4DAE-998E-00FB1B5B7BCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6CFC5013-BB93-4B32-B58E-371DB9C0759B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CFC5013-BB93-4B32-B58E-371DB9C0759B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CFC5013-BB93-4B32-B58E-371DB9C0759B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA08C56-42F0-4DAE-998E-00FB1B5B7BCA}.Debug|Any CPU.ActiveCfg = Debug
+		{0EA08C56-42F0-4DAE-998E-00FB1B5B7BCA}.Debug|Any CPU.Build.0 = Debug
+		{0EA08C56-42F0-4DAE-998E-00FB1B5B7BCA}.Release|Any CPU.ActiveCfg = Release
+		{0EA08C56-42F0-4DAE-998E-00FB1B5B7BCA}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
