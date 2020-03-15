@@ -1,12 +1,12 @@
 # RcloneBrowserLauncher
 
 ## About
-Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) allowing you to :
+Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) (from [kapitainsky](https://github.com/kapitainsky)) allowing you to :
 - Start `Rclone Browser` with `RCLONE_CONFIG_PASS` [environment variable](https://rclone.org/docs/#other-environment-variables) set with your `rclone.conf` password
 - Shutdown, hibernate, or sleep your computer at the end of a `Rclone Browser` tasks queue
 
 ## Usage
-1. Download and run [latest release](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest)  
+1. Download and run `RcloneBrowserLauncher` [latest release](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest)  
 
 ![](RcloneBrowserLauncher/resources/pictures/demo_1.PNG)  
 
@@ -14,6 +14,7 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) allo
 	- If installed for `All users` : `C:\Program Files\Rclone Browser\RcloneBrowser.exe`
 	- If installed only for yourself : `C:\Users\%USERNAME%\AppData\Local\Programs\Rclone Browser\RcloneBrowser.exe`
 3. Enter your `rclone.conf` password (**optional**)
+	- :warning: Do it at your own risk, only enter your `rclone.conf` password in a safe environment
 4. Select an action to be performed at the end of a `Rclone Browser` tasks queue (**optional**) :
 	- Hibernate computer
 	- Shutdown computer
@@ -28,12 +29,10 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) allo
 
 ![](RcloneBrowserLauncher/resources/pictures/demo_3.PNG)  
 
-:warning: Use at your own risk, only enter your `rclone.conf` password in a safe environment.
-
 ## Advanced
 
 Configuration file (including your `rclone.conf` password) is stored in following location :
-	- `C:\Users\%USERNAME%\AppData\Local\RcloneBrowserLauncher`
+- `C:\Users\%USERNAME%\AppData\Local\RcloneBrowserLauncher`
 
 ## Requirements
 - Microsoft [.NET Framework 4](https://www.microsoft.com/en-US/download/details.aspx?id=17851)
