@@ -11,8 +11,10 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) allo
 ![](RcloneBrowserLauncher/resources/pictures/demo_1.PNG)  
 
 2. Select your `RcloneBrowser.exe` location
+	- If installed for `All users` : `C:\Program Files\Rclone Browser\RcloneBrowser.exe`
+	- If installed only for yourself : `C:\Users\%USERNAME%\AppData\Local\Programs\Rclone Browser\RcloneBrowser.exe`
 3. Enter your `rclone.conf` password (**optional**)
-4. Select and action to be performed at the end of a `Rclone Browser` tasks queue (**optional**) :
+4. Select an action to be performed at the end of a `Rclone Browser` tasks queue (**optional**) :
 	- Hibernate computer
 	- Shutdown computer
 	- Sleep computer
@@ -26,9 +28,20 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) allo
 
 ![](RcloneBrowserLauncher/resources/pictures/demo_3.PNG)  
 
+:warning: Use at your own risk, only enter your `rclone.conf` password in a safe environment.
+
+## Advanced
+
+Configuration file (including your `rclone.conf` password) is stored in following location :
+	- `C:\Users\%USERNAME%\AppData\Local\RcloneBrowserLauncher`
+
 ## Requirements
 - Microsoft [.NET Framework 4](https://www.microsoft.com/en-US/download/details.aspx?id=17851)
 - Microsoft Windows Vista or later
+- [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) 1.9.6 or later
+
+## Libraries
+- App icon from [rclone](https://github.com/rclone/rclone)
 
 ## License
 RcloneBrowserLauncher is released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html).
