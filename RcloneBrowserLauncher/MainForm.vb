@@ -72,6 +72,16 @@ Public Class MainForm
 
         cbRunRcloneBrowser.Select()
 
+        'If started from RcloneExplorer...
+
+        If Path.GetDirectoryName(My.Settings.sRcloneBrowserPath).ToLower = Environment.CurrentDirectory.ToLower Then
+            'If no end action, keep Form hidden and exit
+            If Not cbActivateEndAction.Checked Then
+                Visible = False
+                ShowInTaskbar = False
+            End If
+        End If
+
     End Sub
 
     Private Sub MainForm_Shown(sender As Object, e As EventArgs) Handles Me.Shown
