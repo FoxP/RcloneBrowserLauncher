@@ -72,22 +72,19 @@ Public Class MainForm
 
         cbRunRcloneBrowser.Select()
 
+    End Sub
+
+    Private Sub MainForm_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+
         'If started from RcloneExplorer...
 
         If Path.GetDirectoryName(My.Settings.sRcloneBrowserPath).ToLower = Environment.CurrentDirectory.ToLower Then
-            'Don't show UserForm
-            Me.Opacity = 0
-            ShowInTaskbar = False
             'Run chosen action
             If cbActivateEndAction.Checked Then
-                Select Case cbEndAction.SelectedIndex
-                    Case 0
-                        Call Hibernate()
-                    Case 1
-                        Call Shutdown()
-                    Case 2
-                        Call Sleep()
-                End Select
+                'Fix for EndAction.StartPosition = CenterParent
+                Me.Activate()
+                'Countdown before end action
+                EndAction.ShowDialog()
             End If
             Application.Exit()
         End If

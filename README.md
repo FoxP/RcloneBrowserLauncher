@@ -37,7 +37,7 @@ Configuration file (including your `rclone.conf` password) is stored in followin
 ## Requirements
 - Microsoft [.NET Framework 4](https://www.microsoft.com/en-US/download/details.aspx?id=17851)
 - Microsoft Windows Vista or later
-- [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) 1.9.6 or later
+- [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) 2.0.0 or later
 
 ## Libraries
 - App icon from [rclone](https://github.com/rclone/rclone)

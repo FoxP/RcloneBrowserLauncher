@@ -74,6 +74,12 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EndAction.Designer.vb">
+      <DependentUpon>EndAction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EndAction.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,10 +103,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SharedCode.vb" />
+    <Compile Include="WindowsAPI.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndAction.resx">
+      <DependentUpon>EndAction.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
@@ -125,6 +135,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resources\libraries\Microsoft.WindowsAPICodePack.dll" />
+    <Content Include="resources\libraries\Microsoft.WindowsAPICodePack.Shell.dll" />
     <Content Include="resources\pictures\coded_by.png" />
     <Content Include="resources\pictures\information-small_white.png" />
     <Content Include="resources\pictures\RcloneBrowserLauncher.ico" />

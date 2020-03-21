@@ -68,10 +68,10 @@ Partial Class MainForm
         '
         Me.gbEndAction.Controls.Add(Me.TableLayoutPanelEndAction)
         Me.gbEndAction.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gbEndAction.Location = New System.Drawing.Point(3, 105)
-        Me.gbEndAction.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.gbEndAction.Location = New System.Drawing.Point(10, 105)
+        Me.gbEndAction.Margin = New System.Windows.Forms.Padding(10, 3, 10, 0)
         Me.gbEndAction.Name = "gbEndAction"
-        Me.gbEndAction.Size = New System.Drawing.Size(698, 65)
+        Me.gbEndAction.Size = New System.Drawing.Size(684, 65)
         Me.gbEndAction.TabIndex = 8
         Me.gbEndAction.TabStop = False
         Me.gbEndAction.Text = " Finished queue action : "
@@ -89,14 +89,14 @@ Partial Class MainForm
         Me.TableLayoutPanelEndAction.Padding = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.TableLayoutPanelEndAction.RowCount = 1
         Me.TableLayoutPanelEndAction.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanelEndAction.Size = New System.Drawing.Size(692, 46)
+        Me.TableLayoutPanelEndAction.Size = New System.Drawing.Size(678, 46)
         Me.TableLayoutPanelEndAction.TabIndex = 8
         '
         'cbActivateEndAction
         '
         Me.cbActivateEndAction.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cbActivateEndAction.AutoSize = True
-        Me.cbActivateEndAction.Location = New System.Drawing.Point(617, 13)
+        Me.cbActivateEndAction.Location = New System.Drawing.Point(603, 13)
         Me.cbActivateEndAction.Margin = New System.Windows.Forms.Padding(5, 3, 3, 3)
         Me.cbActivateEndAction.Name = "cbActivateEndAction"
         Me.cbActivateEndAction.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
@@ -113,16 +113,17 @@ Partial Class MainForm
         Me.cbEndAction.FormattingEnabled = True
         Me.cbEndAction.Location = New System.Drawing.Point(8, 12)
         Me.cbEndAction.Name = "cbEndAction"
-        Me.cbEndAction.Size = New System.Drawing.Size(601, 21)
+        Me.cbEndAction.Size = New System.Drawing.Size(587, 21)
         Me.cbEndAction.TabIndex = 9
         '
         'gbSettings
         '
         Me.gbSettings.Controls.Add(Me.TableLayoutPanelSettings)
         Me.gbSettings.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gbSettings.Location = New System.Drawing.Point(3, 3)
+        Me.gbSettings.Location = New System.Drawing.Point(10, 5)
+        Me.gbSettings.Margin = New System.Windows.Forms.Padding(10, 5, 10, 3)
         Me.gbSettings.Name = "gbSettings"
-        Me.gbSettings.Size = New System.Drawing.Size(698, 96)
+        Me.gbSettings.Size = New System.Drawing.Size(684, 94)
         Me.gbSettings.TabIndex = 2
         Me.gbSettings.TabStop = False
         Me.gbSettings.Text = " Settings : "
@@ -146,14 +147,14 @@ Partial Class MainForm
         Me.TableLayoutPanelSettings.RowCount = 2
         Me.TableLayoutPanelSettings.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanelSettings.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanelSettings.Size = New System.Drawing.Size(692, 77)
+        Me.TableLayoutPanelSettings.Size = New System.Drawing.Size(678, 75)
         Me.TableLayoutPanelSettings.TabIndex = 3
         '
         'cbActivatePwd
         '
         Me.cbActivatePwd.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cbActivatePwd.AutoSize = True
-        Me.cbActivatePwd.Location = New System.Drawing.Point(617, 48)
+        Me.cbActivatePwd.Location = New System.Drawing.Point(603, 46)
         Me.cbActivatePwd.Margin = New System.Windows.Forms.Padding(4, 3, 3, 3)
         Me.cbActivatePwd.Name = "cbActivatePwd"
         Me.cbActivatePwd.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
@@ -176,7 +177,7 @@ Partial Class MainForm
         '
         Me.lbRclonePwd.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbRclonePwd.AutoSize = True
-        Me.lbRclonePwd.Location = New System.Drawing.Point(7, 51)
+        Me.lbRclonePwd.Location = New System.Drawing.Point(7, 49)
         Me.lbRclonePwd.Name = "lbRclonePwd"
         Me.lbRclonePwd.Size = New System.Drawing.Size(122, 13)
         Me.lbRclonePwd.TabIndex = 9
@@ -185,7 +186,7 @@ Partial Class MainForm
         'cbRclonePath
         '
         Me.cbRclonePath.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cbRclonePath.Location = New System.Drawing.Point(616, 8)
+        Me.cbRclonePath.Location = New System.Drawing.Point(602, 7)
         Me.cbRclonePath.Name = "cbRclonePath"
         Me.cbRclonePath.Size = New System.Drawing.Size(69, 22)
         Me.cbRclonePath.TabIndex = 5
@@ -196,26 +197,28 @@ Partial Class MainForm
         '
         Me.tbRclonePwd.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbRclonePwd.Enabled = False
-        Me.tbRclonePwd.Location = New System.Drawing.Point(162, 47)
+        Me.tbRclonePwd.Location = New System.Drawing.Point(162, 46)
+        Me.tbRclonePwd.Margin = New System.Windows.Forms.Padding(3, 3, 4, 3)
         Me.tbRclonePwd.Name = "tbRclonePwd"
         Me.tbRclonePwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
-        Me.tbRclonePwd.Size = New System.Drawing.Size(448, 20)
+        Me.tbRclonePwd.Size = New System.Drawing.Size(433, 20)
         Me.tbRclonePwd.TabIndex = 6
         '
         'tbRcloneBrowserPath
         '
         Me.tbRcloneBrowserPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbRcloneBrowserPath.Enabled = False
-        Me.tbRcloneBrowserPath.Location = New System.Drawing.Point(162, 9)
+        Me.tbRcloneBrowserPath.Location = New System.Drawing.Point(162, 8)
+        Me.tbRcloneBrowserPath.Margin = New System.Windows.Forms.Padding(3, 3, 4, 3)
         Me.tbRcloneBrowserPath.Name = "tbRcloneBrowserPath"
-        Me.tbRcloneBrowserPath.Size = New System.Drawing.Size(448, 20)
+        Me.tbRcloneBrowserPath.Size = New System.Drawing.Size(433, 20)
         Me.tbRcloneBrowserPath.TabIndex = 4
         '
         'TableLayoutPanelRun
         '
         Me.TableLayoutPanelRun.ColumnCount = 2
         Me.TableLayoutPanelRun.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanelRun.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80.0!))
+        Me.TableLayoutPanelRun.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87.0!))
         Me.TableLayoutPanelRun.Controls.Add(Me.cbAbout, 0, 0)
         Me.TableLayoutPanelRun.Controls.Add(Me.cbRunRcloneBrowser, 0, 0)
         Me.TableLayoutPanelRun.Dock = System.Windows.Forms.DockStyle.Fill
@@ -230,9 +233,10 @@ Partial Class MainForm
         'cbAbout
         '
         Me.cbAbout.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cbAbout.Location = New System.Drawing.Point(615, 8)
+        Me.cbAbout.Location = New System.Drawing.Point(609, 8)
+        Me.cbAbout.Margin = New System.Windows.Forms.Padding(4, 3, 3, 3)
         Me.cbAbout.Name = "cbAbout"
-        Me.cbAbout.Size = New System.Drawing.Size(74, 23)
+        Me.cbAbout.Size = New System.Drawing.Size(80, 23)
         Me.cbAbout.TabIndex = 12
         Me.cbAbout.Text = "?"
         Me.cbAbout.UseVisualStyleBackColor = True
@@ -240,10 +244,10 @@ Partial Class MainForm
         'cbRunRcloneBrowser
         '
         Me.cbRunRcloneBrowser.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cbRunRcloneBrowser.Location = New System.Drawing.Point(7, 8)
-        Me.cbRunRcloneBrowser.Margin = New System.Windows.Forms.Padding(7, 3, 2, 3)
+        Me.cbRunRcloneBrowser.Location = New System.Drawing.Point(3, 8)
+        Me.cbRunRcloneBrowser.Margin = New System.Windows.Forms.Padding(3, 3, 2, 3)
         Me.cbRunRcloneBrowser.Name = "cbRunRcloneBrowser"
-        Me.cbRunRcloneBrowser.Size = New System.Drawing.Size(603, 23)
+        Me.cbRunRcloneBrowser.Size = New System.Drawing.Size(600, 23)
         Me.cbRunRcloneBrowser.TabIndex = 11
         Me.cbRunRcloneBrowser.Text = "Run Rclone Browser"
         Me.cbRunRcloneBrowser.UseVisualStyleBackColor = True
