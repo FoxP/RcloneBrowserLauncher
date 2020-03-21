@@ -5,6 +5,8 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) (fro
 - Start `Rclone Browser` with `RCLONE_CONFIG_PASS` [environment variable](https://rclone.org/docs/#other-environment-variables) set with your `rclone.conf` password
 - Shutdown, hibernate, or sleep your computer at the end of a `Rclone Browser` tasks queue
 
+<kbd><img src="RcloneBrowserLauncher/resources/pictures/demo_4.GIF"></kbd>
+
 ## Usage
 1. Download and run `RcloneBrowserLauncher` [latest release](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest)  
 
