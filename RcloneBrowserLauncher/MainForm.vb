@@ -108,6 +108,7 @@ Public Class MainForm
         If (sFilePath <> String.Empty) Then
             tbRcloneBrowserPath.Text = sFilePath
             My.Settings.sRcloneBrowserPath = sFilePath
+            My.Settings.Save()
         End If
 
     End Sub
@@ -115,6 +116,7 @@ Public Class MainForm
     Private Sub tbRclonePwd_TextChanged(sender As Object, e As EventArgs)
 
         My.Settings.sRclonePwd = tbRclonePwd.Text
+        My.Settings.Save()
 
     End Sub
 
@@ -126,12 +128,14 @@ Public Class MainForm
             tbRclonePwd.Enabled = False
         End If
         My.Settings.bActivatePwd = cbActivatePwd.Checked
+        My.Settings.Save()
 
     End Sub
 
     Private Sub cbEndAction_SelectedIndexChanged(sender As Object, e As EventArgs)
 
         My.Settings.iEndAction = cbEndAction.SelectedIndex
+        My.Settings.Save()
 
     End Sub
 
@@ -143,6 +147,7 @@ Public Class MainForm
             cbEndAction.Enabled = False
         End If
         My.Settings.bActivateEndAction = cbActivateEndAction.Checked
+        My.Settings.Save()
 
     End Sub
 
