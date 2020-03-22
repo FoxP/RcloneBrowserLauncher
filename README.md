@@ -8,7 +8,9 @@ Launcher for [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) (fro
 <kbd><img src="RcloneBrowserLauncher/resources/pictures/demo_4.GIF"></kbd>
 
 ## Usage
-1. Download and run `RcloneBrowserLauncher` [latest release](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest)  
+1. Download and run `RcloneBrowserLauncher` [latest release](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest) :
+	- Portable version : [RcloneBrowserLauncher_portable.zip](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest/download/RcloneBrowserLauncher_portable.zip)
+	- Setup installer : [RcloneBrowserLauncher_setup.msi](https://github.com/FoxP/RcloneBrowserLauncher/releases/latest/download/RcloneBrowserLauncher_setup.msi)  
 
 ![](RcloneBrowserLauncher/resources/pictures/demo_1.PNG)  
 
